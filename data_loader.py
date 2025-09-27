@@ -29,7 +29,7 @@ raw_data = raw_data.astype(
     }
 )
 
+# raw_data.to_parquet("dataset.parquet", engine="pyarrow", index=False)
+
 schema = pq.read_schema("dataset.parquet")
 print(schema)
-
-# raw_data.to_parquet("dataset.parquet", engine="pyarrow", index=False)
