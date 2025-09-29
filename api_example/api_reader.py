@@ -30,7 +30,6 @@ def load_currencies() -> pd.DataFrame:
     return df.sort_values(by="Название валюты", ascending=True)
 
 
-# Пример использования:
 if __name__ == "__main__":
     currency_list = load_currencies()
     print(currency_list.head(10).to_string(index=False))
