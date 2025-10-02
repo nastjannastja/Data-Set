@@ -28,8 +28,8 @@ raw_data = raw_data.astype(
         "Depression": "int8",
     }
 )
+print(raw_data.dtypes)
+raw_data.to_parquet("dataset.parquet", engine="pyarrow", index=False)
 
-# raw_data.to_parquet("dataset.parquet", engine="pyarrow", index=False)
-
-schema = pq.read_schema("dataset.parquet")
-print(schema)
+# schema = pq.read_schema("dataset.parquet")
+# print(schema)
