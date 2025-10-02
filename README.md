@@ -10,5 +10,8 @@
 • Написать poetry install --no-root
 После этого будет произведена установка всех необходимых библиотек для работы с кодом проекта.
 
-Результат выполнения второго задания:
 <img width="1850" height="278" alt="{A147C982-0714-4980-BAC2-2E998C418620}" src="https://github.com/user-attachments/assets/edc2678a-a906-4d82-b979-312356896179" />
+
+С помощью команды dtypes, можно удостовериться, что все типы данных скастовались корректно
+<img width="1313" height="466" alt="{E3BDA512-798D-4E3F-A169-AE23EB2F16C2}" src="https://github.com/user-attachments/assets/86f6652a-7346-442d-a96d-ee83b3b9997a" />
+
