@@ -1,3 +1,4 @@
 .vscode/
 *.parquet
 *.csv
+*.db
