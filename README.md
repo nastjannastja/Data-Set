@@ -23,4 +23,4 @@
 <img width="1313" height="466" alt="{E3BDA512-798D-4E3F-A169-AE23EB2F16C2}" src="https://github.com/user-attachments/assets/86f6652a-7346-442d-a96d-ee83b3b9997a" />
 
 ## 3. Nbviewer 
-Ссылка на nbviewer для просмотра рендера ноутбука: https://nbviewer.org/github/nastjannastja/Data-Set/blob/main/notebooks/EDA.ipynb
+Ссылка на nbviewer для просмотра рендера ноутбука: https://nbviewer.org/github/nastjannastja/Data-Set/blob/main/notebooks/EDA.ipynb?flush=1
