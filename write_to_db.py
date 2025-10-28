@@ -39,7 +39,7 @@ with engine.begin() as conn:
     )
 
     result = pd.read_sql(
-        "SELECT * FROM public.magomedova LIMIT 6",  # проверка корректности добавления данных
+        "SELECT * FROM public.magomedova",  # проверка корректности добавления данных
         con=conn,
     )
     print(result)
