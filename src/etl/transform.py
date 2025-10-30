@@ -45,9 +45,9 @@ def transform_data_types(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def validate_data(df: pd.DataFrame) -> bool:
-    # if df is None:
-    #     print("DataFrame is None")
-    #     return False
+    if df is None:
+        print("DataFrame is None")
+        return False
 
     if len(df) == 0:
         print("DataFrame is empty")
