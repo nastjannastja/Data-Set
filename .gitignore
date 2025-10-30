@@ -3,3 +3,6 @@
 *.csv
 *.db
 *.lock
+*.env
+.data/
+__pycache__/
