@@ -33,6 +33,7 @@
 
 ### **Структура ETL**
 
+```
 Data-Set/
 ├─ src/
   ├─ etl/
@@ -41,6 +42,7 @@ Data-Set/
     ├─ transform.py
     ├─ load.py
     └─ main.py
+```
 
 Для корректной работы ETL-процесса пользователю нужно установить несколько библиотек Python, которые обеспечивают работу с обработкой данных (pandas, pyarrow), базой данных (sqlalchemy, psycopg2), переменными окружения (python-dotenv), и типами данных (dataclasses, если Python < 3.7).
 
